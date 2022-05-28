@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        padding-top: 60px;
+        padding-bottom: 40px;
+		background-image: linear-gradient(45deg, #abd113, rgb(255, 122, 189));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        }
+        .parent{
+            display: flex;
+    
+        }
+        .sa{
+            
+            padding: 2%;
+            width: 66%;
+        }
+    
+        .sa2{
+            
+            width: 36%;
+            padding: 2%;
+        }
+
+        .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+    /* Some more styles to beutify this example */
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+
+
+    /* Table Design */
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+       
+    }
+     
+    th,
+    td {
+        padding: 20px;
+    }
+     
+    th {
+        text-align: left;
+    }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+
+    <h1>ServiceNow Links</h1>
+
+
+
+    <div class="parent">
+    <div class="sa">
+        
+        <h2>Exam Preparation link</h2>
+        <table style="width:100%">
+            <tr>
+                <th>S.NO</th>
+                <th>Topics</th>
+                <th>Refered Links</th>
+                <th>Course Links</th>
+                
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td>Discovery Pattern</td>
+                <td><a target="_blank" href="https://docs.servicenow.com/bundle/sandiego-it-operations-management/page/product/service-mapping/task/t_DefineDiscoveryStepsPatDef.html">Operations</a>
+                 <p> </p>
+                 <a target="_blank" href="https://docs.servicenow.com/bundle/quebec-it-operations-management/page/product/service-mapping/concept/c_ParsingStrategesPatDef.html">Parsing Strategies</a>
+                </td>
+                <td></td>
+            </tr>
+    
+            <tr>
+                <td>2</td>
+                <td>Discovery Configuration</td>
+                <td><a target="_blank" href="https://docs.servicenow.com/bundle/sandiego-it-operations-management/page/product/discovery/reference/discovery-ip-address-configuration.html#discovery-ip-address-configuration">IP Services</a>
+                <p> </p><a target="_blank" href="https://docs.servicenow.com/bundle/sandiego-it-operations-management/page/product/discovery/concept/c_DiscoveryBehaviors.html">Discovery Behaviour</a>
+                    
+                <p> </p><a target="_blank" href="https://docs.servicenow.com/bundle/sandiego-it-operations-management/page/product/discovery/task/t_CreateADiscoverySchedule.html">Schedules</a>
+                <p> </p><a target="_blank" href="https://docs.servicenow.com/bundle/sandiego-it-operations-management/page/product/discovery/concept/c_DiscoProcessFlows.html">Discovery Phases</a>
+                <p> </p><a target="_blank" href="https://docs.servicenow.com/bundle/sandiego-it-operations-management/page/product/discovery/concept/c_DiscoveryStatus.html">Discovery Status and ECC Queue</a>
+                
+            </td>
+            <td></td>
+            </tr>
+    
+            <tr>
+                <td>3</td>
+                <td>Configuration Management Database</td>
+                <td><a target="_blank" href="https://docs.servicenow.com/bundle/quebec-servicenow-platform/page/product/configuration-management/reference/ci-class-manager-landing-page.html">CI Class Manager</a>
+                
+                </td>
+                <td></td>
+            </tr>
+    
+            <tr>
+                <td>4</td>
+                <td>Discovery Engagement Readiness</td>
+                <td><a href=""></a></td>
+                <td></td>
+    
+            </tr>
+    
+        </table>
+    
+
+    </div>
+    <div class="sa2"><h2>Now-learning Courses link</h2>
+    
+        <table style="width:100%">
+            <tr>
+                <th>S.NO</th>
+                <th>Topics</th>
+                <th>Course Links</th>
+                
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>CMDB</td>
+                <td><a target="_blank" href=""></a></td>
+
+
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Discovery On Demand Course</td>
+                <td><a target="_blank" href=""></a></td>
+
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Discovery Extras</td>
+                <td><a target="_blank" href=""></a></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Service mapping fundamentals</td>
+                <td><a target="_blank" href=""></a></td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Service mapping Implementation</td>
+                <td><a target="_blank" href=""></a></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<div class="fixed-footer">
+    <div class="container">Copyright &copy; 2022 Avasoft</div>        
+</div>
+
+</body>
+</html>
